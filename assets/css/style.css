@@ -1470,7 +1470,8 @@
   position: absolute;
   z-index: 1;
   top: 10%;
-  right: 0;
+  right: 10em;
+  width: 40%;
 }
 @media (max-width: 767px) {
   .banner-shape {
