@@ -1172,7 +1172,7 @@
   }
 }
 .conferench-section .conferench-area .conferench-counter {
-  background: url(../../assets/images/shapes/shape-4.png);
+  background: url(../../assets/images/counter-up/Braga\ IoT\ Chellenge\ 2022_\ counter\ fundo-18.png);
   box-shadow: 0px 12px 45px 0px rgba(6, 22, 58, 0.24);
   display: flex;
   flex-wrap: wrap;
@@ -1180,6 +1180,7 @@
   align-items: center;
   border-radius: 12px;
   padding: 50px 0;
+  background-size: cover;
 }
 @media (min-width: 768px) {
   .conferench-section .conferench-area .conferench-counter {
@@ -1217,6 +1218,15 @@
   text-transform: capitalize;
   margin-top: 0;
 }
+.conferench-section
+  .conferench-area
+  .conferench-counter
+  .conferench-bcr
+  .countdown
+  li
+  p {
+  color: #fff !important;
+}
 .conferench-section .conferench-area .conferench-counter .conferench-bcl p {
   max-width: 400px;
   color: #3f485d;
@@ -1236,8 +1246,8 @@
   margin-top: 30px;
   padding: 15px 29px;
   background: transparent;
-  color: #1e5d91;
-  border: 2px solid #1e5d91;
+  color: #fff;
+  border: 2px solid #fff;
 }
 .conferench-section
   .conferench-area
@@ -1282,6 +1292,7 @@
   border: 3px solid #1e5d91;
   background-color: #fff;
   border-radius: 10px;
+  background-color: #1e5d91;
 }
 @media (min-width: 576px) {
   .conferench-section
@@ -1296,7 +1307,7 @@
     right: -22%;
     transform: translateY(3px);
     font-size: 3rem;
-    color: #d02467;
+    color: #fff;
   }
 }
 .conferench-section
@@ -1319,7 +1330,7 @@
   .countdown
   :nth-child(1)
   .count-number {
-  color: #d02467;
+  color: #fff;
 }
 .conferench-section
   .conferench-area
@@ -1328,7 +1339,7 @@
   .countdown
   :nth-child(2)
   .count-number {
-  color: #f52d3a;
+  color: #fff;
 }
 .conferench-section
   .conferench-area
@@ -1337,7 +1348,7 @@
   .countdown
   :nth-child(3)
   .count-number {
-  color: #fe672e;
+  color: #fff;
 }
 .conferench-section
   .conferench-area
@@ -1346,7 +1357,11 @@
   .countdown
   :nth-child(4)
   .count-number {
-  color: #febe26;
+  color: #fff;
+}
+
+.count-number p {
+  color: #fff !important;
 }
 .conferench-section
   .conferench-area
@@ -1359,7 +1374,7 @@
 .conferench-section .ticker {
   font-weight: 600;
   font-size: 100px;
-  color: #fe672e;
+  color: #1e5d91;
   position: relative;
 }
 @media (min-width: 1200px) {
