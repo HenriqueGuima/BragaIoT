@@ -1145,6 +1145,8 @@
     <script src="assets/js/theia-sticky-sidebar.js"></script>
     <script src="assets/js/countdown.js"></script> 
     <script src="assets/js/imgScroll.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11">
+
 
     <script>
       $(window).scroll(function () {
