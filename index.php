@@ -773,7 +773,7 @@
     <!-- faq section start here -->
     <section
       class="faq-section style-1 padding-tb"
-      style="background-image: url(assets/images/faq/03.png)"
+      style="background-image: url(assets/images/faq/03.png);     height: 160vh;"
     >
       <div class="container container-1310">
         <div
@@ -993,13 +993,13 @@
 			  </div>
 			</div>
 			<div class="col-lg-8">
-			  <form action="#">
+			  <form method="POST" action="/assets/php/contact.php">
 				<div class="contact d-flex flex-wrap">
 				  <div class="contact-item">
 					<div class="contact-item-inner">
 					  <input
 						type="text"
-						name="name"
+						name="nome"
 						placeholder="Nome"
 						class="wow fadeInLeft"
 						data-wow-duration="1s"
@@ -1015,7 +1015,7 @@
 					  />
 					  <input
 						type="text"
-						name="number"
+						name="assunto"
 						placeholder="Assunto Principal"
 						class="wow fadeInLeft"
 						data-wow-duration="1s"
@@ -1029,7 +1029,7 @@
 					data-wow-delay=".2s"
 				  >
 					<div class="contact-item-inner">
-					  <textarea placeholder="Mensagem" rows="8"></textarea>
+					  <textarea name="mensagem" placeholder="Mensagem" rows="8"></textarea>
 					</div>
 				  </div>
 				</div>

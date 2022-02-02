@@ -10486,12 +10486,14 @@
   left: 50%;
   transform: translateX(-50%);
   display: inline-block;
-  width: 175px;
+  width: 218px;
   text-align: center;
   height: 35px;
   line-height: 50px;
   transition: all 0.3s ease;
-  background: url(../images/footer/s-top.png);
+  background: url(../images/footer/lombinha.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .top .scrollToTop {
   width: 100%;
@@ -10499,18 +10501,18 @@
   display: block;
   position: fixed;
   outline: none;
-  color: #383a50;
+  color: #fff;
   transition: all 0.3s ease;
 }
 .top .scrollToTop:hover {
-  color: #1e5d91;
+  color: #3aa6ff;
 }
 .top .scrollToTop i {
   font-size: 1.5rem;
   padding-top: 5px;
 }
 .top .scrollToTop:hover {
-  color: #1e5d91;
+  color: #3aa6ff;
 }
 
 .social-link-list {
